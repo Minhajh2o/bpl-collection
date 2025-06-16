@@ -15,7 +15,7 @@ const Navbar = () => {
           </figure>
         </div>
         <div className="flex items-center">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal text-gray-600">
             <li>
               <a href="/">Home</a>
             </li>
@@ -30,7 +30,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div>
-            <p className="flex items-center gap-2 ml-2 border border-gray-500 px-4 py-2 rounded-lg">
+            <p className="flex items-center gap-2 ml-2 border border-gray-300 px-4 py-2 rounded-lg">
               <span>0</span> Coin
               <TbCoinFilled className="text-yellow-500 text-xl" />
             </p>
