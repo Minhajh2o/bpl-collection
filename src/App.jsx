@@ -1,10 +1,12 @@
 import './App.css'
+import Navbar from './Component/header/navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <div>
+      <div className="container mx-auto">
+        <Navbar />
       </div>
     </>
   )
