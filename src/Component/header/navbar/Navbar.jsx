@@ -1,4 +1,4 @@
-import logo from "../../../assets/logo-footer.png";
+import logo from "../../../assets/logo.png";
 import { TbCoinFilled } from "react-icons/tb";
 
 const Navbar = () => {
