@@ -9,14 +9,14 @@ const Banner = () => {
             </figure>
             {/* banner content */}
             <div className='absolute inset-0 flex flex-col items-center justify-center text-center gap-4'>
-            <img className=""src={bannerImage} alt="Banner" />
-            <h1 className='text-yellow-300 text-[40px] font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
-            <h4 className='text-gray-500 text-2xl'>Beyond Boundaries Beyond Limits</h4>
-            <div className="border-2 border-[#E7FE29] p-2 mt-2 w-fit rounded-2xl">
-                <button className="bg-[#E7FE29] text-black font-bold py-3 px-5 rounded-xl">
-                    Join Now
-                </button>
-            </div>
+                <img className="" src={bannerImage} alt="Banner" />
+                <h1 className='text-[#E7FE29] text-[40px] font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
+                <h4 className='text-gray-300 text-2xl'>Beyond Boundaries Beyond Limits</h4>
+                <div className="border-2 border-[#E7FE29] p-2 mt-2 w-fit rounded-2xl">
+                    <button className="bg-[#E7FE29] text-black font-bold py-3 px-5 rounded-xl">
+                        Join Now
+                    </button>
+                </div>
             </div>
         </div>
     );
