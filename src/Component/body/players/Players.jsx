@@ -3,7 +3,7 @@ import React from 'react';
 const Players = () => {
     const countSelected = 0;
     return (
-        <div>
+        <div className='mb-24'>
             <div className='flex justify-between items-center mb-8'>
                 <h3 className='text-[28px] font-semibold'>Available Players</h3>
                 <div className='flex items-center border border-gray-300 rounded-xl'>

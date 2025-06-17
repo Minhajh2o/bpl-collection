@@ -2,9 +2,9 @@ import banner from '../../../assets/bg-shadow.png';
 
 const NewsLatter = () => {
     return (
-        <div className='relative'>
-            <figure className="relative w-full h-96 p-6 border-2 border-gray-300 rounded-3xl">
-                <img className='w-full h-full object-cover rounded-2xl' src={banner} alt="" />
+        <div className='relative z-10 -mb-48 bg-white/10 rounded-3xl'>
+            <figure className="relative w-full h-96 p-6 border-2 border-white rounded-3xl">
+                <img className='w-full h-full object-cover rounded-2xl bg-white border-2 border-gray-100' src={banner} alt="" />
             </figure>
             <div className='absolute inset-0 flex flex-col items-center justify-center text-center gap-6 rounded-3xl'>
                 <h2 className='text-4xl font-bold mb-4'>Subscribe to our Newsletter</h2>
@@ -14,7 +14,7 @@ const NewsLatter = () => {
                     <input
                         type="email"
                         placeholder="Enter your email"
-                        className="input input-bordered p-4 h-12"
+                        className="input input-bordered p-4 h-11"
                         required
                     />
                     <button
