@@ -19,7 +19,7 @@ const NewsLatter = () => {
                     />
                     <button
                         type="submit"
-                        className="bg-gradient-to-r from-pink-400 via-orange-300 to-yellow-300 text-black font-semibold px-6 py-3 rounded-xl shadow-md hover:opacity-90 transition"
+                        className="bg-gradient-to-r from-pink-400 via-orange-300 to-yellow-300 text-black font-semibold px-6 py-3 rounded-xl shadow-md cursor-pointer hover:opacity-90 transition"
                     >
                         Subscribe
                     </button>

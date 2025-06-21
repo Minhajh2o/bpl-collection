@@ -13,7 +13,7 @@ const Banner = () => {
                 <h1 className='text-[#E7FE29] text-[40px] font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
                 <h4 className='text-gray-300 text-2xl'>Beyond Boundaries Beyond Limits</h4>
                 <div className="border-2 border-[#E7FE29] p-2 mt-2 w-fit rounded-2xl">
-                    <button className="bg-[#E7FE29] text-black font-bold py-3 px-6 rounded-xl">
+                    <button className="bg-[#E7FE29] text-black font-bold py-3 px-6 rounded-xl cursor-pointer">
                         Claim Free Credit
                     </button>
                 </div>
