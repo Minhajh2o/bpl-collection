@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Player 1",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.0,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1000000",
+    "image": "https://i.ibb.co/Rkn86WWz/p1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Player 2",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.1,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1010000",
+    "image": "https://i.ibb.co/C3VG3vBy/p2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Player 3",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.1,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1020000",
+    "image": "https://i.ibb.co/CpY6hXzn/p3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Player 4",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.2,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1030000",
+    "image": "https://i.ibb.co/HfhRW4Hg/p4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Player 5",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.2,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1040000",
+    "image": "https://i.ibb.co/ZpK6ws8g/p5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Player 6",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.2,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1050000",
+    "image": "https://i.ibb.co/MD1XrsmL/p6.webp"
+  },
+  {
+    "id": 7,
+    "name": "Player 7",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.3,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1060000",
+    "image": "https://i.ibb.co/NgPd7Zvc/p7.webp"
+  },
+  {
+    "id": 8,
+    "name": "Player 8",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.3,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1070000",
+    "image": "https://i.ibb.co/X0RyVzd/p8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Player 9",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.4,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1080000",
+    "image": "https://i.ibb.co/Zznv6Lyg/p9.webp"
+  },
+  {
+    "id": 10,
+    "name": "Player 10",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.4,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1090000",
+    "image": "https://i.ibb.co/HpgFGPfB/p10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Player 11",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.5,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1100000",
+    "image": "https://i.ibb.co/KcN0GKJN/p11.webp"
+  },
+  {
+    "id": 12,
+    "name": "Player 12",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.6,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1110000",
+    "image": "https://i.ibb.co/pcnqBh7/p12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Player 13",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.6,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1120000",
+    "image": "https://i.ibb.co/XkWQBRhf/p13.webp"
+  },
+  {
+    "id": 14,
+    "name": "Player 14",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.7,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1130000",
+    "image": "https://i.ibb.co/DXmHFN6/p14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Player 15",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.7,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1140000",
+    "image": "https://i.ibb.co/JwQX2k4V/p15.webp"
+  },
+  {
+    "id": 16,
+    "name": "Player 16",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.8,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1150000",
+    "image": "https://i.ibb.co/gZDCwMxr/p16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Player 17",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.8,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1160000",
+    "image": "https://i.ibb.co/C3vcLvNw/p17.webp"
+  },
+  {
+    "id": 18,
+    "name": "Player 18",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.8,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1170000",
+    "image": "https://i.ibb.co/5grbqQRP/p18.webp"
+  },
+  {
+    "id": 19,
+    "name": "Player 19",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.9,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1180000",
+    "image": "https://i.ibb.co/dskzRXzh/p19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Player 20",
+    "country": "Country",
+    "role": "Batsman",
+    "rating": 8.9,
+    "batting_style": "Right-Hand-Bat",
+    "bowling_style": "Right-arm Medium",
+    "price": "$1190000",
+    "image": "https://i.ibb.co/3m3ptWP2/p20.jpg"
+  }
+]
