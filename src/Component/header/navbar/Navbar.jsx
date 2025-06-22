@@ -3,7 +3,7 @@ import { TbCoinFilled } from "react-icons/tb";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50 bg-white">
+    <div className="">
       <div className="navbar bg-base-100 shadow-sm">
         <div className="flex-1">
           <figure className="w-12 h-12">

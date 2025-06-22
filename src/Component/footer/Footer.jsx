@@ -73,7 +73,7 @@ const Footer = () => {
 
         {/* Bottom Text */}
         <div className="text-center text-gray-500 border-t border-gray-700 mt-16 p-8 text-sm ">
-          ©2024 Your Company All Rights Reserved.
+          ©2025 BPL Collection All Rights Reserved.
         </div>
       </div>
     </div>

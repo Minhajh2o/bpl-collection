@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="container max-w-7xl mx-auto">
-        <div className='md:px-5'>
+        <div className='sticky top-0 z-50 bg-white md:px-5'>
           <Navbar />
         </div>
         <div className='px-5'>
