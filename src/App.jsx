@@ -8,13 +8,15 @@ function App() {
 
   return (
     <>
-      <div className="container max-w-7xl px-5 mx-auto">
+      <div className="container max-w-7xl mx-auto">
         <Navbar />
+        <div className=' px-5 '>
         <Banner />
         <Players />
-        <NewsLatter className="" />
+        <NewsLatter />
+        </div>
       </div>
-      <div className="">
+      <div>
         <Footer />
       </div>
     </>
