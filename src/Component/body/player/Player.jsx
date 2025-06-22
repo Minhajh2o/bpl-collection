@@ -6,16 +6,16 @@ const Player = ({ player, selectedPlayers, addSelectedPlayer }) => {
 
   return (
     <div>
-      <div className="card bg-base-100 shadow-sm rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+      <div className="card bg-base-100 shadow-sm rounded-lg overflow-hidden hover:shadow-lg transition-shadow group">
         {/* Player Image */}
-        <figure className="h-52 w-full overflow-hidden pt-6 px-6 hover:p-0 transition-all duration-300">
+        <figure className="h-52 w-full overflow-hidden pt-6 px-6 group-hover:p-0 transition-all duration-300">
           <img
             src={player.image}
             alt={player.name}
-            className="object-cover w-full h-full rounded-t-lg transition-transform duration-300 hover:scale-110"
+            className="object-cover w-full h-full rounded-t-lg transition-transform duration-300 group-hover:scale-110"
           />
         </figure>
-
+        {/* Card content */}
         <div className="p-6 space-y-4">
           {/* Player Name */}
           <div className="flex items-center gap-2">
