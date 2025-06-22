@@ -9,16 +9,16 @@ function App() {
   return (
     <>
       <div className="container max-w-7xl mx-auto">
-        <Navbar />
-        <div className=' px-5 '>
+        <div className='md:px-5'>
+          <Navbar />
+        </div>
+        <div className='px-5'>
         <Banner />
         <Players />
         <NewsLatter />
         </div>
       </div>
-      <div>
         <Footer />
-      </div>
     </>
   )
 }
