@@ -6,7 +6,7 @@ const Banner = () => {
         <div className='relative mt-6 md:mt-12 mb-12 md:mb-24'>
             {/* Banner Image */}
             <figure className="relative w-full h-72 md:h-[512px] rounded-2xl">
-                <img className="w-full h-full object-cover rounded-2xl bg-black/90" src={banner} alt="Banner" />
+                <img className="w-full h-full object-cover rounded-2xl bg-gray-900" src={banner} alt="Banner" />
             </figure>
             {/* banner content */}
             <div className='absolute inset-0 flex flex-col items-center justify-center text-center gap-3 md:gap-4'>
