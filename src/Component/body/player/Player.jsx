@@ -1,11 +1,12 @@
 import { RiAccountCircleFill } from "react-icons/ri";
 import { BsFlagFill } from "react-icons/bs";
 
-const Player = ({ player }) => {
+const Player = ({ player, selectedPlayers, addSelectedPlayer }) => {
+  const isSelected = selectedPlayers.some((p) => p.id === player.id);
+
   return (
     <div>
       <div className="card bg-base-100 shadow-sm rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-
         {/* Player Image */}
         <figure className="h-52 w-full overflow-hidden pt-6 px-6 hover:p-0 transition-all duration-300">
           <img
@@ -55,10 +56,18 @@ const Player = ({ player }) => {
           {/* Price and Button */}
           <div className="flex items-center justify-between text-sm">
             <p className="font-semibold text-gray-700">
-              Price: <span className="text-black">{player.price}</span>
+              Price: <span className="text-black">${player.price}</span>
             </p>
-            <button className="cursor-pointer py-2 px-4 xl:px-3 border-2 border-gray-300 rounded-lg hover:bg-gray-100 transition">
-              Choose Player
+            <button
+              onClick={() => addSelectedPlayer(player)}
+              disabled={isSelected}
+              className={`py-2 px-4 xl:px-3 rounded-lg font-semibold transition-all duration-300 ${
+                isSelected
+                  ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+                  : "bg-white text-gray-800 border-2 border-gray-300 hover:bg-gray-100 cursor-pointer"
+              }`}
+            >
+              {isSelected ? "Selected" : "Choose Player"}
             </button>
           </div>
         </div>

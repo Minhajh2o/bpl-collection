@@ -1,7 +1,7 @@
 import logo from "../../../assets/logo.png";
 import { TbCoinFilled } from "react-icons/tb";
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
   return (
     <div className="">
       <div className="navbar bg-base-100 shadow-sm">
@@ -33,7 +33,7 @@ const Navbar = () => {
           {/* coin */}
           <div>
             <p className="flex items-center gap-2 ml-2 border border-gray-300 px-3 md:px-4 py-2 rounded-lg text-sm md:text-base font-semibold">
-              <span>0</span> Coin
+              <span>{coin}</span> Coin
               <TbCoinFilled className="text-yellow-400 text-2xl" />
             </p>
           </div>

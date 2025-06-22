@@ -7,7 +7,7 @@
     "rating": 9.5,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Medium",
-    "price": "$1500000",
+    "price": "1500000",
     "image": "https://i.ibb.co/Rkn86WWz/p1.webp"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 9.0,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Offbreak",
-    "price": "$1300000",
+    "price": "1300000",
     "image": "https://i.ibb.co/C3VG3vBy/p2.webp"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 9.1,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Legbreak",
-    "price": "$1450000",
+    "price": "1450000",
     "image": "https://i.ibb.co/CpY6hXzn/p3.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 8.8,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Offbreak",
-    "price": "$1350000",
+    "price": "1350000",
     "image": "https://i.ibb.co/HfhRW4Hg/p4.webp"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 8.9,
     "batting_style": "Left-Hand-Bat",
     "bowling_style": "Right-arm Fast-Medium",
-    "price": "$1400000",
+    "price": "1400000",
     "image": "https://i.ibb.co/ZpK6ws8g/p5.webp"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 9.2,
     "batting_style": "Left-Hand-Bat",
     "bowling_style": "Left-arm Orthodox",
-    "price": "$1250000",
+    "price": "1250000",
     "image": "https://i.ibb.co/MD1XrsmL/p6.webp"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 9.3,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Fast",
-    "price": "$1400000",
+    "price": "1400000",
     "image": "https://i.ibb.co/NgPd7Zvc/p7.webp"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 8.7,
     "batting_style": "Left-Hand-Bat",
     "bowling_style": "Left-arm Fast",
-    "price": "$1200000",
+    "price": "1200000",
     "image": "https://i.ibb.co/X0RyVzd/p8.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 8.6,
     "batting_style": "Left-Hand-Bat",
     "bowling_style": "Right-arm Legbreak",
-    "price": "$1300000",
+    "price": "1300000",
     "image": "https://i.ibb.co/Zznv6Lyg/p9.webp"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 8.5,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Offbreak",
-    "price": "$1250000",
+    "price": "1250000",
     "image": "https://i.ibb.co/HpgFGPfB/p10.jpg"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 8.4,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Left-arm Fast-Medium",
-    "price": "$1100000",
+    "price": "1100000",
     "image": "https://i.ibb.co/KcN0GKJN/p11.webp"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 9.0,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Legbreak",
-    "price": "$1350000",
+    "price": "1350000",
     "image": "https://i.ibb.co/pcnqBh7/p12.jpg"
   },
   {
@@ -139,7 +139,7 @@
     "rating": 8.6,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Fast",
-    "price": "$1200000",
+    "price": "1200000",
     "image": "https://i.ibb.co/XkWQBRhf/p13.webp"
   },
   {
@@ -150,7 +150,7 @@
     "rating": 8.5,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Legbreak",
-    "price": "$1150000",
+    "price": "1150000",
     "image": "https://i.ibb.co/DXmHFN6/p14.jpg"
   },
   {
@@ -161,7 +161,7 @@
     "rating": 8.4,
     "batting_style": "Left-Hand-Bat",
     "bowling_style": "None",
-    "price": "$1150000",
+    "price": "1150000",
     "image": "https://i.ibb.co/JwQX2k4V/p15.webp"
   },
   {
@@ -172,7 +172,7 @@
     "rating": 8.3,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "None",
-    "price": "$1100000",
+    "price": "1100000",
     "image": "https://i.ibb.co/gZDCwMxr/p16.jpg"
   },
   {
@@ -183,7 +183,7 @@
     "rating": 8.7,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Fast-Medium",
-    "price": "$1300000",
+    "price": "1300000",
     "image": "https://i.ibb.co/C3vcLvNw/p17.webp"
   },
   {
@@ -194,7 +194,7 @@
     "rating": 8.5,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Offbreak",
-    "price": "$1100000",
+    "price": "1100000",
     "image": "https://i.ibb.co/5grbqQRP/p18.webp"
   },
   {
@@ -205,7 +205,7 @@
     "rating": 8.6,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "Right-arm Offbreak",
-    "price": "$1250000",
+    "price": "1250000",
     "image": "https://i.ibb.co/dskzRXzh/p19.jpg"
   },
   {
@@ -216,7 +216,7 @@
     "rating": 8.8,
     "batting_style": "Right-Hand-Bat",
     "bowling_style": "None",
-    "price": "$1250000",
+    "price": "1250000",
     "image": "https://i.ibb.co/3m3ptWP2/p20.jpg"
   }
 ]

@@ -1,7 +1,9 @@
 import bannerImage from '../../../assets/banner-main.png';
 import banner from '../../../assets/bg-shadow.png';
 
-const Banner = () => {
+const Banner = ({addCoin}) => {
+
+
     return (
         <div className='relative mt-6 md:mt-12 mb-12 md:mb-24'>
             {/* Banner Image */}
@@ -23,7 +25,9 @@ const Banner = () => {
                 </h4>
                 {/* Button */}
                 <div className="border-2 border-[#E7FE29] p-1 md:p-2 mt-2 w-fit rounded-2xl">
-                    <button className="bg-[#E7FE29] text-black font-bold py-2 px-4 md:py-3 md:px-6 rounded-xl cursor-pointer text-base">
+                    <button 
+                    onClick={addCoin}
+                    className="bg-[#E7FE29] text-black font-bold py-2 px-4 md:py-3 md:px-6 rounded-xl cursor-pointer text-base">
                         Claim Free Credit
                     </button>
                 </div>
