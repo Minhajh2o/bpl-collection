@@ -1,6 +1,6 @@
 import SelectedPlayer from "../selectedPlayer/SelectedPlayer";
 
-const SelectedPlayers = ({ selectedPlayers }) => {
+const SelectedPlayers = ({ selectedPlayers, removeSelectedPlayer }) => {
   return (
     <div className="mb-12 md:mb-24">
       <div className="space-y-4">
@@ -8,6 +8,7 @@ const SelectedPlayers = ({ selectedPlayers }) => {
           <SelectedPlayer
             key={selectedPlayer.id}
             selectedPlayer={selectedPlayer}
+            removeSelectedPlayer={removeSelectedPlayer}
           />
         ))}
       </div>

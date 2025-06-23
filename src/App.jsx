@@ -53,6 +53,19 @@ function App() {
     subtractCoin(player.price);
   };
 
+  // Remove selected player from the list
+  const removeSelectedPlayer = (playerId) => {
+    setSelectedPlayers((selectedPlayers) =>
+      selectedPlayers.filter((player) => player.id !== playerId)
+    );
+    const removedPlayer = selectedPlayers.find(
+      (player) => player.id === playerId
+    );
+    if (removedPlayer) {
+      setCoin((coin) => coin + parseInt(removedPlayer.price));
+    }
+  };
+
   // app render
   return (
     <>
@@ -68,7 +81,10 @@ function App() {
             addSelectedPlayer={addSelectedPlayer}
             selectedPlayers={selectedPlayers}
           />
-          <SelectedPlayers selectedPlayers={selectedPlayers} />
+          <SelectedPlayers
+            selectedPlayers={selectedPlayers}
+            removeSelectedPlayer={removeSelectedPlayer}
+          />
           <NewsLatter />
         </div>
       </div>

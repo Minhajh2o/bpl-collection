@@ -1,6 +1,6 @@
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-const SelectedPlayer = ({ selectedPlayer }) => {
+const SelectedPlayer = ({ selectedPlayer, removeSelectedPlayer }) => {
   return (
     <div className="flex justify-between items-center border border-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
       <div className="flex items-center gap-6">
@@ -24,7 +24,7 @@ const SelectedPlayer = ({ selectedPlayer }) => {
       
       {/* Delete Icon */}
       <button
-        onClick={() => {console.log("Delete player", selectedPlayer.name);}}
+        onClick={() => removeSelectedPlayer(selectedPlayer.id)}
         className="text-2xl text-red-400 hover:text-red-600 transition-colors duration-200"
       >
         <RiDeleteBin6Line  />
