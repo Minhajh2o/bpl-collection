@@ -4,6 +4,7 @@ import Players from "./Component/body/players/Players";
 import Footer from "./Component/footer/footer";
 import Banner from "./Component/header/banner/Banner";
 import Navbar from "./Component/header/navbar/Navbar";
+import SelectedPlayers from "./Component/body/selectedPlayers/SelectedPlayers";
 
 function App() {
   // states
@@ -58,7 +59,7 @@ function App() {
   return (
     <>
       <div className="container max-w-7xl mx-auto">
-        <div className="sticky top-0 z-50 bg-white md:px-5">
+        <div className="sticky top-0 z-50 bg-white md:mx-5">
           <Navbar coin={coin} />
         </div>
         <div className="px-5">
@@ -69,6 +70,7 @@ function App() {
             addSelectedPlayer={addSelectedPlayer}
             selectedPlayers={selectedPlayers}
           />
+          <SelectedPlayers selectedPlayers={selectedPlayers} />
           <NewsLatter />
         </div>
       </div>

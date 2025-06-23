@@ -160,7 +160,7 @@
     "role": "Wicket-Keeper",
     "rating": 8.4,
     "batting_style": "Left-Hand-Bat",
-    "bowling_style": "None",
+    "bowling_style": "N/A",
     "price": "1150000",
     "image": "https://i.ibb.co/JwQX2k4V/p15.webp"
   },
@@ -171,7 +171,7 @@
     "role": "Wicket-Keeper",
     "rating": 8.3,
     "batting_style": "Right-Hand-Bat",
-    "bowling_style": "None",
+    "bowling_style": "N/A",
     "price": "1100000",
     "image": "https://i.ibb.co/gZDCwMxr/p16.jpg"
   },
@@ -215,7 +215,7 @@
     "role": "Wicket-Keeper",
     "rating": 8.8,
     "batting_style": "Right-Hand-Bat",
-    "bowling_style": "None",
+    "bowling_style": "N/A",
     "price": "1250000",
     "image": "https://i.ibb.co/3m3ptWP2/p20.jpg"
   }

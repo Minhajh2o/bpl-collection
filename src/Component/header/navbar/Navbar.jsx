@@ -32,9 +32,9 @@ const Navbar = ({ coin }) => {
           </ul>
           {/* coin */}
           <div>
-            <p className="flex items-center gap-2 ml-2 border border-gray-300 px-3 md:px-4 py-2 rounded-lg text-sm md:text-base font-semibold">
+            <p className="flex items-center gap-2 ml-2 border border-gray-300 px-4 py-2 rounded-lg text-sm md:text-base font-semibold">
               <span>{coin}</span> Coin
-              <TbCoinFilled className="text-yellow-400 text-2xl" />
+              <TbCoinFilled className="text-amber-400 text-2xl" />
             </p>
           </div>
           {/* hamburger menu */}
