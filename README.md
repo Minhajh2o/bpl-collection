@@ -37,4 +37,11 @@ Welcome to **BPL Collection** – a modern web application for assembling your u
 
 ---
 
-> **Enjoy building your dream cricket team with BPL
+## 🌐 Live Demo
+
+- [bpl-collection.surge.sh](http://bpl-collection.surge.sh)
+- [frabjous-moxie-10d354.netlify.app](https://frabjous-moxie-10d354.netlify.app/)
+
+---
+
+> **Enjoy building your dream cricket team
