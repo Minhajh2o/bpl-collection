@@ -11,6 +11,9 @@ function App() {
   const [players, setPlayers] = useState([]);
   const [coin, setCoin] = useState(0);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
+  const [isActive, setIsActive] = useState(
+    {available: true, selected: false}
+  );
 
   // fetch players data
   useEffect(() => {
@@ -66,6 +69,15 @@ function App() {
     }
   };
 
+  // Toggle active state
+  const toggleActiveState = (state) => {
+    if (state === "available") {
+      setIsActive({ available: true, selected: false });
+    } else if (state === "selected") {
+      setIsActive({ available: false, selected: true });
+    }
+  };
+
   // app render
   return (
     <>
@@ -78,11 +90,10 @@ function App() {
           <Players
             key={players.id}
             players={players}
+            isActive={isActive}
+            selectedPlayers={selectedPlayers}
+            toggleActiveState={toggleActiveState}
             addSelectedPlayer={addSelectedPlayer}
-            selectedPlayers={selectedPlayers}
-          />
-          <SelectedPlayers
-            selectedPlayers={selectedPlayers}
             removeSelectedPlayer={removeSelectedPlayer}
           />
           <NewsLatter />
