@@ -3,8 +3,9 @@ import { TbCoinFilled } from "react-icons/tb";
 
 const Navbar = ({ coin }) => {
   return (
-    <div className="">
-      <div className="navbar bg-base-100 shadow-sm max-w-[1240px] mx-auto">
+    <div className="backdrop-blur-md"
+        style={{ backgroundColor: "rgba(255,255,255,0.6)" }}>
+      <div className="navbar h-20 bg-transparent shadow-none max-w-[1240px] mx-auto">
         <div className="flex-1">
           <figure className="w-12 h-12">
             <img
@@ -18,16 +19,16 @@ const Navbar = ({ coin }) => {
           {/* menu */}
           <ul className="hidden md:flex menu menu-horizontal text-gray-600">
             <li>
-              <a href="/">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="/selected-players">Fixture</a>
+              <a href="#">Fixture</a>
             </li>
             <li>
-              <a href="/footer">Team</a>
+              <a href="#">Team</a>
             </li>
             <li>
-              <a href="/footer">Schedule</a>
+              <a href="#">Schedule</a>
             </li>
           </ul>
           {/* coin */}
@@ -61,16 +62,16 @@ const Navbar = ({ coin }) => {
               className="menu dropdown-content bg-base-100 rounded-box z-1 mt-3 w-28 p-2 shadow"
             >
               <li>
-                <a href="/">Home</a>
+                <a href="#">Home</a>
               </li>
               <li>
-                <a href="/selected-players">Fixture</a>
+                <a href="#">Fixture</a>
               </li>
               <li>
-                <a href="/footer">Team</a>
+                <a href="#">Team</a>
               </li>
               <li>
-                <a href="/footer">Schedule</a>
+                <a href="#">Schedule</a>
               </li>
             </ul>
           </div>

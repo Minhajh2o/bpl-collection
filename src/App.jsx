@@ -11,9 +11,10 @@ function App() {
   const [players, setPlayers] = useState([]);
   const [coin, setCoin] = useState(0);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
-  const [isActive, setIsActive] = useState(
-    {available: true, selected: false}
-  );
+  const [isActive, setIsActive] = useState({
+    available: true,
+    selected: false,
+  });
 
   // fetch players data
   useEffect(() => {
@@ -81,7 +82,7 @@ function App() {
   // app render
   return (
     <>
-      <div className="sticky top-0 z-50 bg-white">
+      <div className="sticky top-0 z-50">
         <Navbar coin={coin} />
       </div>
       <div className="container max-w-7xl mx-auto">

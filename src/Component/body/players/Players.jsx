@@ -1,3 +1,4 @@
+import ToggleSection from "../../toggleSection/ToggleSection";
 import Player from "../player/Player";
 import SelectedPlayers from "../selectedPlayers/SelectedPlayers";
 
@@ -9,37 +10,13 @@ const Players = ({
   addSelectedPlayer,
   removeSelectedPlayer,
 }) => {
-  const countSelected = selectedPlayers.length;
   return (
     <div className="mb-12 md:mb-24">
-      <div className="flex flex-col-reverse md:flex-row-reverse justify-between items-center gap-4 mb-8">
-        {/* Toggle buttons */}
-        <div className="grid grid-cols-2 w-full md:w-auto border border-gray-300 rounded-xl">
-          <button
-            onClick={() => toggleActiveState("available")}
-            className={`py-4 px-8 rounded-l-xl cursor-pointer transition-none 
-              ${
-                isActive.available ? "bg-[#E7FE29] font-semibold" : "bg-white"
-              }`}
-          >
-            Available
-          </button>
-          <button
-            onClick={() => toggleActiveState("selected")}
-            className={`py-4 px-8 rounded-r-xl cursor-pointer transition-none 
-              ${isActive.selected ? "bg-[#E7FE29] font-semibold" : "bg-white"}`}
-          >
-            Selected (<span>{countSelected}</span>)
-          </button>
-        </div>
-
-        {/* Title */}
-        <h3 className="text-[22px] md:text-[28px] font-semibold">
-          {isActive.available
-            ? "Available Players"
-            : `Selected Players (${countSelected}/6)`}
-        </h3>
-      </div>
+      <ToggleSection
+        isActive={isActive}
+        selectedPlayers={selectedPlayers}
+        toggleActiveState={toggleActiveState}
+      />
 
       {/* Player Cards */}
       {isActive.available ? (
