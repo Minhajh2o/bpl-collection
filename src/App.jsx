@@ -4,7 +4,8 @@ import Players from "./Component/body/players/Players";
 import Footer from "./Component/footer/Footer";
 import Banner from "./Component/header/banner/Banner";
 import Navbar from "./Component/header/navbar/Navbar";
-import SelectedPlayers from "./Component/body/selectedPlayers/SelectedPlayers";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   // states
@@ -31,6 +32,7 @@ function App() {
   // Add 1 million coins
   const addCoin = () => {
     setCoin((coin) => coin + 1_000_000);
+    toast.success("1 million coins added!");
   };
 
   // Subtract coins based on player price
@@ -46,15 +48,16 @@ function App() {
       return;
     }
     if (selectedPlayers.length >= 6) {
-      alert("You can only select up to 6 players.");
+      toast.error("Only 6 players can be selected.");
       return;
     }
     if (coin < player.price) {
-      alert("You don't have enough coins to buy this player.");
+      toast.error("Not enough coins.");
       return;
     }
     setSelectedPlayers((selectedPlayers) => [...selectedPlayers, player]);
     subtractCoin(player.price);
+    toast.success(`Selected ${player.name}!`);
   };
 
   // Remove selected player from the list
@@ -67,6 +70,7 @@ function App() {
     );
     if (removedPlayer) {
       setCoin((coin) => coin + parseInt(removedPlayer.price));
+      toast.error(`Removed ${removedPlayer.name}!`);
     }
   };
 
@@ -101,6 +105,18 @@ function App() {
         </div>
       </div>
       <Footer />
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </>
   );
 }
