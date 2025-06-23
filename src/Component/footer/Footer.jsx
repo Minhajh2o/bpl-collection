@@ -7,7 +7,7 @@ const Footer = () => {
           <img
             src={logo}
             alt="BPL Logo"
-            className="w-16 h-16 md:w-36 md:h-36 object-cover"
+            className="w-20 h-20 md:w-36 md:h-36 object-cover"
           />
         </figure>
 
