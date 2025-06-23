@@ -14,10 +14,10 @@ const Players = ({
     <div className="mb-12 md:mb-24">
       <div className="flex flex-col-reverse md:flex-row-reverse justify-between items-center gap-4 mb-8">
         {/* Toggle buttons */}
-        <div className="flex items-center justify-around w-full md:w-auto border border-gray-300 rounded-xl">
+        <div className="grid grid-cols-2 w-full md:w-auto border border-gray-300 rounded-xl">
           <button
             onClick={() => toggleActiveState("available")}
-            className={`cursor-pointer py-4 px-8 rounded-l-xl transition-none 
+            className={`py-4 px-8 rounded-l-xl cursor-pointer transition-none 
               ${
                 isActive.available ? "bg-[#E7FE29] font-semibold" : "bg-white"
               }`}
@@ -26,7 +26,7 @@ const Players = ({
           </button>
           <button
             onClick={() => toggleActiveState("selected")}
-            className={`cursor-pointer py-4 px-8 rounded-r-xl transition-none 
+            className={`py-4 px-8 rounded-r-xl cursor-pointer transition-none 
               ${isActive.selected ? "bg-[#E7FE29] font-semibold" : "bg-white"}`}
           >
             Selected (<span>{countSelected}</span>)
@@ -56,6 +56,7 @@ const Players = ({
       ) : (
         <SelectedPlayers
           selectedPlayers={selectedPlayers}
+          toggleActiveState={toggleActiveState}
           removeSelectedPlayer={removeSelectedPlayer}
         />
       )}
