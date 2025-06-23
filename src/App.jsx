@@ -58,10 +58,10 @@ function App() {
   // app render
   return (
     <>
-      <div className="container max-w-7xl mx-auto">
-        <div className="sticky top-0 z-50 bg-white md:mx-5">
+        <div className="sticky top-0 z-50 bg-white">
           <Navbar coin={coin} />
         </div>
+      <div className="container max-w-7xl mx-auto">
         <div className="px-5">
           <Banner addCoin={addCoin} />
           <Players
