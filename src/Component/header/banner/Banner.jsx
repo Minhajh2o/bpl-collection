@@ -24,10 +24,10 @@ const Banner = ({addCoin}) => {
                     Beyond Boundaries Beyond Limits
                 </h4>
                 {/* Button */}
-                <div className="border-2 border-[#E7FE29] p-1 md:p-2 mt-2 md:mt-4 w-fit rounded-2xl">
+                <div className="border-2 border-[#E7FE29] p-1 md:p-2 mt-2 md:mt-4 w-fit rounded-2xl group">
                     <button 
                     onClick={addCoin}
-                    className="bg-[#E7FE29] text-black font-bold py-2 px-4 md:py-3 md:px-6 rounded-xl cursor-pointer text-base">
+                    className="bg-[#E7FE29] text-black font-bold py-2 px-4 md:py-3 md:px-6 rounded-xl cursor-pointer text-base group-hover:scale-105 transition-transform duration-300">
                         Claim Free Credit
                     </button>
                 </div>
