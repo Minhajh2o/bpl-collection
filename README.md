@@ -1,12 +1,40 @@
-# React + Vite
+# BPL Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **BPL Collection** – a modern web application for assembling your ultimate Dream 11 Cricket Team! This project provides an interactive platform to select players, manage your team, and stay updated with the latest cricket news.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Description
 
-## Expanding the ESLint configuration
+**BPL Collection** is a React-based application where users can:
+- Browse and select cricket players to build their dream team.
+- Manage virtual coins to "buy" players.
+- Subscribe to newsletters and stay updated with fixtures, teams, and schedules.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **React** (with Hooks)
+- **Tailwind CSS** (for modern, responsive UI)
+- **React Icons**
+- **React Toastify** (for notifications)
+- **Vite** (for fast development)
+- **JavaScript (ES6+)**
+
+---
+
+## ✨ Key Features
+
+1. **Dream Team Builder:**  
+   Select up to 6 players using a virtual coin system. Prevents duplicate selections and provides instant feedback.
+
+2. **Live Coin Management:**  
+   Earn coins with a single click and spend them to add players. Coin balance is always visible in the navbar.
+
+3. **Newsletter & Updates:**  
+   Subscribe to the latest cricket news and updates. The newsletter section overlaps beautifully with the footer for a modern look.
+
+---
+
+> **Enjoy building your dream cricket team with BPL
