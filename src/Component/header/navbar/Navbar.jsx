@@ -5,7 +5,7 @@ const Navbar = ({ coin }) => {
   return (
     <div className="backdrop-blur-md"
         style={{ backgroundColor: "rgba(255,255,255,0.6)" }}>
-      <div className="navbar h-20 bg-transparent shadow-none max-w-[1240px] mx-auto">
+      <div className="navbar h-20 bg-transparent shadow-sm max-w-[1240px] mx-auto">
         <div className="flex-1">
           <figure className="w-12 h-12">
             <img

@@ -52,7 +52,7 @@ function App() {
       return;
     }
     if (coin < player.price) {
-      toast.error("Not enough coins.");
+      toast.error("Not enough coins to buy this player.");
       return;
     }
     setSelectedPlayers((selectedPlayers) => [...selectedPlayers, player]);
@@ -106,7 +106,7 @@ function App() {
       </div>
       <Footer />
       <ToastContainer
-        position="top-center"
+        position={window.innerWidth < 640 ? "top-right" : "top-center"}
         autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
@@ -116,7 +116,9 @@ function App() {
         draggable
         pauseOnHover
         theme="light"
+        style={window.innerWidth < 640 ? { width: "90%", left: "10%" } : {padding: "0 20px"}}
       />
+      
     </>
   );
 }
