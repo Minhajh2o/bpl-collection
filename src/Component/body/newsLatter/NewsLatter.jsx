@@ -2,7 +2,7 @@ import banner from "../../../assets/bg-shadow.png";
 
 const NewsLatter = () => {
   return (
-    <div className="relative z-10 -mb-32 md:-mb-48 bg-white/10 p-4 md:p-6 border-2 border-white rounded-3xl">
+    <div className="relative z-10 -mb-36 md:-mb-48 bg-white/10 p-4 md:p-6 border-2 border-white rounded-3xl">
 
       {/* Background Image */}
       <figure className="relative w-full h-64 md:h-96 rounded-2xl">
